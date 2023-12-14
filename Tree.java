@@ -14,6 +14,7 @@ public class Tree {
             return;
         }
 
+        
         System.out.println(indent + "+ " + directory.getName() + "/");
         File[] files = directory.listFiles();
         if (files == null) {
